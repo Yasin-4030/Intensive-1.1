@@ -5,13 +5,13 @@ const northLot = document.querySelector("#north-lot");
 const downtwonLot = document.querySelector("#downtown");
 const goldenGateLot = document.querySelector("#goldengate");
 const missionLot = document.querySelector("#mission");
-const sunsetLot = document.querySelector("#sunset");
+const richmondtLot = document.querySelector("#richmond");
 const schoolLot = document.querySelector("#school")
 const northernLotOption = document.querySelector("#northern-lot");
 const downtonOption = document.querySelector("#downtown-lot");
 const gGlotOption = document.querySelector("#goldengate-lot");
 const missionOption = document.querySelector("#mission-lot");
-const sunsetOption = document.querySelector("#sunset-lot");
+const richmondOption = document.querySelector("#richmond-lot");
 const mSchoolOption = document.querySelector("#Mschool-lot")
 
 
@@ -27,9 +27,3 @@ optionsList.forEach(choice => {
         optionContainer.classList.remove("active");
     });
 });
-
-
-
-northernLotOption.addEventListener("mouseover", function() {
-    console.log("displaycolor")
-}); 
