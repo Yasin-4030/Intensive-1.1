@@ -25,5 +25,7 @@ optionsList.forEach(choice => {
     choice.addEventListener("click", function() {
         selection.innerHTML = choice.querySelector("label").innerHTML;
         optionContainer.classList.remove("active");
+        console.log(choice.dataset.url)
+        window.location.href = choice.dataset.url
     });
 });

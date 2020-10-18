@@ -97,7 +97,7 @@ main {
     cursor: pointer;
 }
 
-.select-box .option .lots {
+.select-box .option .lots, .pass {
     display: none;
 }
 
@@ -117,39 +117,40 @@ main {
 
 #section-2 #north-lot {
     position: absolute;
-    right: 55em;
-    top: 8.5em;
+    right: 60%;
+    top: 18%;
 }
 
 #section-2 #downtown {
     position: absolute;
-    right: 45em;
-    top: 24.5em;
+    right: 52%;
+    top: 52%;
 }
 
 #section-2 #goldengate {
     position: absolute;
-    right: 73em;
-    top: 6em;
+    right: 83%;
+    top: 13%;
 }
 
 #section-2 #mission {
     position: absolute;
-    right: 57em;
-    top: 37.5em;
+    right: 65%;
+    top: 80%;
 }
 
 #section-2 #richmond {
     position: absolute;
-    left: 2em;
-    top: 24em;
+    left: 2%;
+    top: 51.5%;
 }
 
 #section-2 #school {
     position: absolute;
-    right: 52em;
-    top: 21.5em;
+    right: 59%;
+    top: 46%;
 }
+
 
 #section-each-lot {
     background: rgb(154, 237, 252);
