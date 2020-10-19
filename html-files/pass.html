@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Parking Passes</title>
+        <title>Parking Pass</title>
         <link rel="stylesheet" href="../style.css">
     </head>
     <body>
@@ -26,24 +26,24 @@
                 <input type="text" name="customer" id="name" placeholder="As Apear On Card"><br><br>
 
                 <lable>Credit/Debit Card number</lable><br>
-                <input type="number" name="card" id="card" placeholder="xxxx-xxxx-xxxx-xxxx"><br>
+                <input type="text" name="card" id="card" maxlength="16" placeholder="xxxx-xxxx-xxxx-xxxx"><br>
 
                 <lable>Exp.Month</lable><br>
-                <input type="text" name="month" id="exp-month" placeholder="Month"><br>
+                <input type="text" name="month" id="exp-month" maxlength="2" placeholder="Month"><br>
 
                 <lable>Exp.Year</lable><br>
-                <input type="text" name="year" id="exp-year" placeholder="Year"><br>
+                <input type="text" name="year" id="exp-year" maxlength="2" placeholder="Year"><br>
 
                 <lable>CVV</lable><br>
-                <input type="text" name="cvv" id="cvv" placeholder="xxx"><br>
+                <input type="text" name="cvv" id="cvv" maxlength="3" placeholder="xxx"><br>
 
                 <lable>Billing ZIP</lable><br>
-                <input type="text" name="bill" id="zip" placeholder="Zip Code"><br><br>
+                <input type="text" name="bill" id="zip" maxlength="5" placeholder="Zip Code"><br><br>
 
                 <lable>Email</lable><br>
                 <input type="email" name="mail" id="receipt" placeholder="Email for receipt"><br><br>
 
-                <button>Submit Payment</button>
+                <button onclick="validation();">Submit Payment</button>
 
             </form>
 

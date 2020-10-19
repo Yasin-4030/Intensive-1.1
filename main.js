@@ -24,8 +24,12 @@ selection.addEventListener("click", function() {
 optionsList.forEach(choice => {
     choice.addEventListener("click", function() {
         selection.innerHTML = choice.querySelector("label").innerHTML;
+        const location = choice.querySelector("input").value
+        localStorage.setItem("location", selection.innerHTML);
         optionContainer.classList.remove("active");
         console.log(choice.dataset.url)
+        console.log(choice.value)
         window.location.href = choice.dataset.url
     });
 });
+
